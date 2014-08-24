@@ -1,5 +1,5 @@
 ;
-; Jungo Confidential. Copyright (c) 2009 Jungo Ltd. http://www.jungo.com
+; Jungo Confidential. Copyright (c) 2010 Jungo Ltd. http://www.jungo.com
 ;
 ; Installs windrvr6.sys as a driver for a pseudo-device
 ;
@@ -11,8 +11,8 @@ ClassGuid={c671678c-82c1-43f3-d700-0049433e9a4b}
 Provider=%MFGNAME%
 ; The catalog file below is digitally signed by Jungo.
 ; For WHQL, you should obtain a catalog signed by Microsoft Hardware Compatibility Labs
-CatalogFile=wd1010.cat
-DriverVer=09/02/2009, 10.1.0
+CatalogFile=wd1020.cat
+DriverVer=07/15/2010, 10.2.0
 
 [Manufacturer]
 %MFGNAME%=DeviceList,NTamd64
